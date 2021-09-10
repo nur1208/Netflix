@@ -1,6 +1,7 @@
-import { Container, GlobalStyle, OtherContainer } from "./appSC";
+import { Container, GlobalStyle } from "./appSC";
 import { Sidebar } from "./components/sidebar/Sidebar";
 import { Topbar } from "./components/topbar/Topbar";
+import { HomePage } from "./pages/home/HomePage";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Topbar />
       <Container id="Container">
         <Sidebar />
-        <OtherContainer>other</OtherContainer>
+        <HomePage />
       </Container>
     </div>
   );

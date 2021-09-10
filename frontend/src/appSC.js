@@ -8,9 +8,5 @@ a{
 `;
 export const Container = styled.div`
   display: flex;
-`;
-
-export const OtherContainer = styled.div`
-  flex: 4;
-  /* background-color: red; */
+  margin-top: 10px;
 `;
