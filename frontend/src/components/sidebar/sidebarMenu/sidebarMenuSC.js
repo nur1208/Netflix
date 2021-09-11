@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 export const SidebarMenuContainer = styled.div`
   margin-bottom: 10px;
 `;
@@ -14,7 +14,7 @@ export const SidebarList = styled.ul`
   padding: 5px;
 `;
 
-export const LinkSC = styled.a`
+export const LinkSC = styled(Link)`
   color: #555;
 `;
 

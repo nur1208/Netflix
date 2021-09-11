@@ -5,7 +5,7 @@ export const renderSidebarListItem = (sidebarItems) => {
     to ? (
       <LinkSC
         id="LinkSC"
-        href={to}
+        to={to}
         style={{ marginBottom: "5px", marginTop: "5px" }}
       >
         <SidebarListItem id="SidebarListItem" isActive={isActive}>

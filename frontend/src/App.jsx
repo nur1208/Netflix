@@ -3,7 +3,8 @@ import { Sidebar } from "./components/sidebar/Sidebar";
 import { Topbar } from "./components/topbar/Topbar";
 import { HomePage } from "./pages/home/HomePage";
 import { Switch, Route } from "react-router-dom";
-import { UserList } from "./components/userList/UserList";
+import { UserList } from "./pages/userList/UserList";
+import { User } from "./pages/user/User";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/users" exact component={UserList} />
+          <Route path="/users/:id" exact component={User} />
           {/* <HomePage /> */}
         </Switch>
       </Container>
