@@ -29,7 +29,7 @@ export const Product = () => {
     <ProductContainer id="ProductContainer">
       <ProductTitleContainer id="ProductTitleContainer">
         <ProductTitle id="ProductTitle">Product</ProductTitle>
-        <Link to="/newProduct">
+        <Link to="/admin/newProduct">
           <ProductAddBtn id="ProductAddBtn">Create</ProductAddBtn>
         </Link>
       </ProductTitleContainer>

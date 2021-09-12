@@ -22,7 +22,7 @@ export const sidebarMenus = [
         icon: <LineStyle className="sidebarIcon" />,
         text: "Home",
         isActive: true,
-        to: "/",
+        to: "/admin/",
       },
       {
         icon: <Timeline className="sidebarIcon" />,
@@ -40,12 +40,12 @@ export const sidebarMenus = [
       {
         icon: <PermIdentity className="sidebarIcon" />,
         text: "Users",
-        to: "/users",
+        to: "/admin/users",
       },
       {
         icon: <Storefront className="sidebarIcon" />,
         text: "Products",
-        to: "/products",
+        to: "/admin/products",
       },
       {
         icon: <AttachMoney className="sidebarIcon" />,

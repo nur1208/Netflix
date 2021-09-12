@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomePageContainer = styled.div`
+export const AdminHomePageContainer = styled.div`
   flex: 4;
 `;
 

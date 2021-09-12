@@ -56,7 +56,7 @@ export const UserList = () => {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/users/" + params.row.id}>
+            <Link to={"/admin/users/" + params.row.id}>
               <UserListEditBtn>Edit</UserListEditBtn>
             </Link>
             <UserListDeleteIcon

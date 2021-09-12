@@ -135,7 +135,7 @@ export const useProductList = () => {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/products/" + params.row.id}>
+            <Link to={"/admin/products/" + params.row.id}>
               <ProductListEdit id="productListEdit">
                 Edit
               </ProductListEdit>

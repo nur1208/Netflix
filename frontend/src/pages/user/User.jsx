@@ -36,7 +36,7 @@ export const User = () => {
     <UserContainer id="UserContainer">
       <UserTitleContainer id="UserTitleContainer">
         <UserTitle id="UserTitle">Edit User</UserTitle>
-        <Link to="/newUser">
+        <Link to="/admin/newUser">
           <UserAddButton id="UserAddButton">Create</UserAddButton>
         </Link>
       </UserTitleContainer>
