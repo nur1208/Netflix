@@ -8,6 +8,7 @@ import { User } from "./pages/user/User";
 import { NewUser } from "./pages/newUser/NewUser";
 import { ProductList } from "./pages/productList/ProductList";
 import { Product } from "./pages/product/Product";
+import { NewProduct } from "./pages/newProduct/NewProduct";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/users" exact component={UserList} />
           <Route path="/newUser" exact component={NewUser} />
           <Route path="/products" exact component={ProductList} />
+          <Route path="/newProduct" exact component={NewProduct} />
           <Route path="/users/:id" exact component={User} />
           <Route path="/products/:id" exact component={Product} />
           {/* <HomePage /> */}
