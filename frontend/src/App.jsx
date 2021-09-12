@@ -10,16 +10,20 @@ import { ProductList } from "./pages/productList/ProductList";
 import { Product } from "./pages/product/Product";
 import { NewProduct } from "./pages/newProduct/NewProduct";
 import { AdminHomePage } from "./pages/adminHome/AdminHomePage";
+import { HomePage } from "./pages/home/HomePage";
 
 function App() {
   const { pathname } = useLocation();
+
+  const isForAdmin = pathname.startsWith("/admin");
   return (
     <div>
       <GlobalStyle />
-      {pathname.startsWith("/admin") && <Topbar />}
-      <Container id="Container">
-        {pathname.startsWith("/admin") && <Sidebar />}
+      {isForAdmin && <Topbar />}
+      <Container id="Container" isForAdmin={isForAdmin}>
+        {isForAdmin && <Sidebar />}
         <Switch>
+          <Route path="/" exact component={HomePage} />
           <Route path="/admin/" exact component={AdminHomePage} />
           <Route path="/admin/users" exact component={UserList} />
           <Route path="/admin/newUser" exact component={NewUser} />
