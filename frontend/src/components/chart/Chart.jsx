@@ -15,7 +15,7 @@ import { ChartContainer, ChartTitle } from "./chartSC";
 export const Chart = ({ title, data, dataKey, grid }) => {
   return (
     <ChartContainer id="ChartContainer">
-      <ChartTitle id="ChartTitle">User Analytics</ChartTitle>
+      <ChartTitle id="ChartTitle">{title}</ChartTitle>
       {/* aspect={4 / 1} means if the width 400px then the hight of the chat will be 100px */}
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
@@ -25,7 +25,7 @@ export const Chart = ({ title, data, dataKey, grid }) => {
           <XAxis dataKey="name" stroke="#5550bd" />
           <Line
             type="monotone"
-            dataKey="Active User"
+            dataKey={dataKey}
             stroke="#5550bd"
           />
           {/* for seeing the details */}

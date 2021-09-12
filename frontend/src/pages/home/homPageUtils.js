@@ -3,6 +3,6 @@ import { userData } from "../../dummyData";
 export const chartProps = {
   data: userData,
   title: "User Analytics",
-  dataKay: "Active User",
+  dataKey: "Active User",
   grid: true,
 };
