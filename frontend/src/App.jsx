@@ -12,6 +12,7 @@ import { NewProduct } from "./pages/newProduct/NewProduct";
 import { AdminHomePage } from "./pages/adminHome/AdminHomePage";
 import { HomePage } from "./pages/home/HomePage";
 import { Watch } from "./pages/watch/Watch";
+import { Register } from "./pages/register/Register";
 
 function App() {
   const { pathname } = useLocation();
@@ -26,6 +27,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/watch" exact component={Watch} />
+          <Route path="/register" exact component={Register} />
           <Route path="/admin/" exact component={AdminHomePage} />
           <Route path="/admin/users" exact component={UserList} />
           <Route path="/admin/newUser" exact component={NewUser} />
