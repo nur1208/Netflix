@@ -13,6 +13,7 @@ import { AdminHomePage } from "./pages/adminHome/AdminHomePage";
 import { HomePage } from "./pages/home/HomePage";
 import { Watch } from "./pages/watch/Watch";
 import { Register } from "./pages/register/Register";
+import { Login } from "./pages/register/login/Login";
 
 function App() {
   const { pathname } = useLocation();
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/watch" exact component={Watch} />
           <Route path="/register" exact component={Register} />
+          <Route path="/login" exact component={Login} />
           <Route path="/admin/" exact component={AdminHomePage} />
           <Route path="/admin/users" exact component={UserList} />
           <Route path="/admin/newUser" exact component={NewUser} />
