@@ -3,6 +3,7 @@ import {
   ArrowForwardIosOutlined,
 } from "@material-ui/icons";
 import React, { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { ListItem } from "../listItem/ListItem";
 import { ListContainer, Wrapper } from "./listSC";
 
@@ -39,7 +40,9 @@ export const List = () => {
           style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          <ListItem index={0} />
+          <Link to="/watch">
+            <ListItem index={0} />
+          </Link>
           <ListItem index={1} />
           <ListItem index={2} />
           <ListItem index={3} />

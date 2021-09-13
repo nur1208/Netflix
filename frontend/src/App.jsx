@@ -11,6 +11,7 @@ import { Product } from "./pages/product/Product";
 import { NewProduct } from "./pages/newProduct/NewProduct";
 import { AdminHomePage } from "./pages/adminHome/AdminHomePage";
 import { HomePage } from "./pages/home/HomePage";
+import { Watch } from "./pages/watch/Watch";
 
 function App() {
   const { pathname } = useLocation();
@@ -24,6 +25,7 @@ function App() {
         {isForAdmin && <Sidebar />}
         <Switch>
           <Route path="/" exact component={HomePage} />
+          <Route path="/watch" exact component={Watch} />
           <Route path="/admin/" exact component={AdminHomePage} />
           <Route path="/admin/users" exact component={UserList} />
           <Route path="/admin/newUser" exact component={NewUser} />

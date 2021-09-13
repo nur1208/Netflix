@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { MainColor } from "../../appSC";
 
 export const ItemInfo = styled.div`
   display: flex;
@@ -33,9 +34,13 @@ export const ItemInfoTop = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: gray;
+
+  & > span {
+    font-size: 18px;
+  }
 
   .limit {
     border: 1px solid gray;
@@ -46,7 +51,7 @@ export const ItemInfoTop = styled.div`
 export const ListItemContainer = styled.div`
 width: 225px;
   height: 120px;
-  background-color: var(--main-color);
+  background-color: ${MainColor};
   margin-right: 5px;
   overflow: hidden;
   cursor: pointer;

@@ -1,5 +1,6 @@
 import { InfoOutlined, PlayArrow } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Buttons,
   Category,
@@ -49,10 +50,12 @@ export const Featured = ({ type }) => {
         </span>
 
         <Buttons id="Buttons">
-          <button className="play">
-            <PlayArrow />
-            <span>Play</span>
-          </button>
+          <Link to="/watch">
+            <button className="play">
+              <PlayArrow />
+              <span>Play</span>
+            </button>
+          </Link>
           <button className="more">
             <InfoOutlined />
             <span>Info</span>

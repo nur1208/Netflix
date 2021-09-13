@@ -4,7 +4,7 @@ export const ListContainer = styled.div`
   width: 100%;
   margin-top: 10px;
 
-  span {
+  & > span {
     color: white;
     font-size: 20px;
     font-weight: 500;
