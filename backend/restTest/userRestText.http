@@ -1,0 +1,36 @@
+@port = 5000
+@Host =  http://localhost
+
+@route = api/v1/users
+
+
+GET {{Host}}:{{port}}/{{route}}/?new=true
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA0ZmUwZGI1ZDhlMjlkZTg1ZDYyMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMTYwNDc0NywiZXhwIjoxNjMyMDM2NzQ3fQ.xZX4GqTDXlguqdfoY-wdvOOgiiADahEvfG8v4lMfiRE
+
+###
+
+DELETE  {{Host}}:{{port}}/{{route}}/6140530ce10cc958d15876ea
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA1YzRmZDlkNDY3YWEzNjc3YjU3OSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MzE2MDc4OTYsImV4cCI6MTYzMjAzOTg5Nn0.IJHCp8MaZvarvEgnNNir3Lp-PVQiKjOy7gq2-PmX744
+
+###
+
+PUT  {{Host}}:{{port}}/{{route}}/61404fe0db5d8e29de85d621
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA1YzRmZDlkNDY3YWEzNjc3YjU3OSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MzE2MDc4OTYsImV4cCI6MTYzMjAzOTg5Nn0.IJHCp8MaZvarvEgnNNir3Lp-PVQiKjOy7gq2-PmX744
+
+{
+    "username":"ben",
+    "password":"12341234"
+}
+
+###
+
+GET {{Host}}:{{port}}/{{route}}/61404fe0db5d8e29de8d621
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA0ZmUwZGI1ZDhlMjlkZTg1ZDYyMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMTYwNDc0NywiZXhwIjoxNjMyMDM2NzQ3fQ.xZX4GqTDXlguqdfoY-wdvOOgiiADahEvfG8v4lMfiRE
+
+
+###
+
+GET {{Host}}:{{port}}/{{route}}/stats
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA0ZmUwZGI1ZDhlMjlkZTg1ZDYyMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMTYwNDc0NywiZXhwIjoxNjMyMDM2NzQ3fQ.xZX4GqTDXlguqdfoY-wdvOOgiiADahEvfG8v4lMfiRE
+
