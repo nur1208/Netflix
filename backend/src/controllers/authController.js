@@ -49,8 +49,6 @@ export const login = async (req, res) => {
       { expiresIn: "5d" }
     );
 
-    console.log({ doc: user._doc });
-
     // give us all the info of the user and live out the password and __v only
     // eslint-disable-next-line no-unused-vars
     const { password, __v, ...info } = user._doc;
@@ -87,7 +85,6 @@ export const protect = async (req, res, next) => {
       //   )
       // );
     }
-    console.log({ token });
 
     // 2 verification token
     const decode = await promisify(jwt.verify)(
@@ -117,8 +114,6 @@ export const protect = async (req, res, next) => {
       //   )
       // );
     }
-
-    console.log({ currentUser });
 
     // grant access to protected route
     req.user = currentUser;

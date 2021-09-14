@@ -3,16 +3,17 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import userRouter from "./routes/userRoutes.js";
 import morgan from "morgan";
+import movieRouter from "./routes/movieRoutes.js";
 
 dotenv.config();
 const app = express();
 const port = 5000;
 
-// mongodb+srv://nur:<password>@cluster0.0rwgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 const main = async () => {
   try {
     // eslint-disable-next-line no-undef
     await mongoose.connect(process.env.mongodb_url);
+    // eslint-disable-next-line no-console
     console.log("connect to the database");
 
     // middleware for adding body data to the request
@@ -26,10 +27,14 @@ const main = async () => {
     });
 
     app.use("/api/v1/users", userRouter);
+    app.use("/api/v1/movies", movieRouter);
+
     app.listen(port, () => {
+      // eslint-disable-next-line no-console
       console.log(`app listening at http://localhost:${port}`);
     });
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(error);
   }
 };
