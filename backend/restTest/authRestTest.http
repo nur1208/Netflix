@@ -1,0 +1,15 @@
+@port = 5000
+@Host =  http://localhost
+
+@route = api/v1/users
+
+###
+
+POST {{Host}}:{{port}}/{{route}}/register
+Content-Type: application/json
+
+{
+    "username":"ben",
+    "email":"ben@ben.com",
+    "password":"12341234"
+}
