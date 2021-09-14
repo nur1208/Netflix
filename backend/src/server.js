@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import userRouter from "./routes/userRoutes.js";
 import morgan from "morgan";
 import movieRouter from "./routes/movieRoutes.js";
+import listRouter from "./routes/listRoutes.js";
 
 dotenv.config();
 const app = express();
@@ -28,6 +29,7 @@ const main = async () => {
 
     app.use("/api/v1/users", userRouter);
     app.use("/api/v1/movies", movieRouter);
+    app.use("/api/v1/lists", listRouter);
 
     app.listen(port, () => {
       // eslint-disable-next-line no-console

@@ -1,6 +1,6 @@
-import { Schema, model } from "mongoose";
+import mongoose from "mongoose";
 
-const ListSchema = new Schema(
+const ListSchema = new mongoose.Schema(
   {
     title: { type: String, required: true, unique: true },
     type: { type: String },
@@ -10,6 +10,6 @@ const ListSchema = new Schema(
   { timestamps: true }
 );
 
-const List = model("List", ListSchema);
+const List = mongoose.model("List", ListSchema);
 
 export default List;

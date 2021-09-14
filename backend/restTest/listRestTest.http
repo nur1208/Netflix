@@ -1,0 +1,27 @@
+@port = 5000
+@Host =  http://localhost
+
+@route = api/v1/lists
+
+@adminToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA0ZmUwZGI1ZDhlMjlkZTg1ZDYyMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMTYwNDc0NywiZXhwIjoxNjMyMDM2NzQ3fQ.xZX4GqTDXlguqdfoY-wdvOOgiiADahEvfG8v4lMfiRE
+
+@userToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDA1YzRmZDlkNDY3YWEzNjc3YjU3OSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MzE2MDc4OTYsImV4cCI6MTYzMjAzOTg5Nn0.IJHCp8MaZvarvEgnNNir3Lp-PVQiKjOy7gq2-PmX744
+
+POST  {{Host}}:{{port}}/{{route}}/
+Content-Type: application/json
+Authorization: Bearer {{adminToken}}
+
+{
+    "title":"action"
+}
+
+###
+
+DELETE {{Host}}:{{port}}/{{route}}/61408f9d94ebfcdae1ea7fec
+Authorization: Bearer {{adminToken}}
+
+
+###
+
+GET {{Host}}:{{port}}/{{route}}/
+Authorization: Bearer {{adminToken}}
