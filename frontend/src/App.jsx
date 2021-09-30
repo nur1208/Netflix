@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { Container, GlobalStyle } from "./appSC";
 import { Sidebar } from "./components/sidebar/Sidebar";
 import { Topbar } from "./components/topbar/Topbar";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { UserList } from "./pages/userList/UserList";
 import { User } from "./pages/user/User";
 import { NewUser } from "./pages/newUser/NewUser";
@@ -17,8 +17,9 @@ import { Login } from "./pages/register/login/Login";
 
 function App() {
   const { pathname } = useLocation();
-
+  // TODO move if the user exit stuff out of here
   const isForAdmin = pathname.startsWith("/admin");
+  const user = true;
   return (
     <div>
       <GlobalStyle />
@@ -26,6 +27,21 @@ function App() {
       <Container id="Container" isForAdmin={isForAdmin}>
         {isForAdmin && <Sidebar />}
         <Switch>
+          <Route path="/" exact>
+            {user ? <HomePage /> : <Redirect to="/register" />}
+          </Route>
+          <Route path="/movies">
+            {user ? (
+              <HomePage type="movie" />
+            ) : (
+              <Redirect to="/register" />
+            )}
+          </Route>
+
+          <Route path="/series">
+            <HomePage type="Series" />
+          </Route>
+
           <Route path="/" exact component={HomePage} />
           <Route path="/watch" exact component={Watch} />
           <Route path="/register" exact component={Register} />

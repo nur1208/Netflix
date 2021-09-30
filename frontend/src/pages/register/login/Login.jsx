@@ -1,7 +1,11 @@
 import React from "react";
 import { LoginContainer } from "./loginSC";
 
-export const Login = () => {
+export const Login = ({ history }) => {
+  const user = true;
+
+  user && history.push("/");
+
   return (
     <LoginContainer id="LoginContainer">
       <div className="top">

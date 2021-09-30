@@ -24,7 +24,7 @@ export const Category = styled.div`
 
   select {
     cursor: pointer;
-    background-color: var(--main-color);
+    background-color: ${MainColor};
     border: 1px solid white;
     color: white;
     margin-left: 20px;

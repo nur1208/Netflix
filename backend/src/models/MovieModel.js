@@ -3,15 +3,15 @@ import mongoose from "mongoose";
 const MovieSchema = new mongoose.Schema(
   {
     title: { type: String, required: true, unique: true },
-    desc: { type: String },
-    img: { type: String },
+    description: { type: String },
+    imgURL: { type: String },
     imgTitle: { type: String },
     imgSm: { type: String },
-    trailer: { type: String },
+    trailerURL: { type: String },
     video: { type: String },
     year: { type: String },
     limit: { type: Number },
-    genre: { type: String },
+    genres: { type: [String] },
     isSeries: { type: Boolean, default: false },
   },
   { timestamps: true }

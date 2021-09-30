@@ -16,4 +16,9 @@ export const Container = styled.div`
   margin-top: 10px;
   
   `}
+
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
 `;

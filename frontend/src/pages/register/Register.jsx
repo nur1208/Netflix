@@ -1,7 +1,10 @@
 import React, { useRef, useState } from "react";
 import { RegisterContainer } from "./registerSC";
 
-export const Register = () => {
+export const Register = ({ history }) => {
+  const user = true;
+
+  user && history.push("/");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

@@ -1,0 +1,102 @@
+[
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BZGQzODVkZDAtOWFhNS00MWJhLThjNDctNjFlZDExYjg5NWM1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UY281_CR2,0,190,281_.jpg",
+    "title": "No One Gets Out Alive",
+    "description": "An immigrant in search of the American dream who, after being forced to take a room in a boarding house, finds herself in a nightmare she can't escape.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi2712847129/1434659607842-pgv4ql-1631034310892.mp4?Expires=1633004155&Signature=a0gWIpjKxirJ-XRD24KMKxzA0dfPlbc8MkP5nJK7OJCr6Sz~aYJfZtTBY~hKJQywgKV9Kf~sTabm2b3FFHHEtrQQ113USNxlYbPTQC-Z8NLKKLJyrzsXcLuaDQcqmiwxthn-9c2KZZQxpG1VG3uhN~tQff4S1q8zmkFJIvnVKeWjXazKNGNxhZgmnQDMyK9yFfRfhjJquEDOsEoHkzG2YmVUaWqgJygCONTtRlcVwtkYD0OR6FjP3omT30V76tMcwPrGxnwbPQzO6Exh6YwSJVmxu34n28LOU4IixStU70BLMhiJsPUXcvBmXatR8iTFUosB2Pf1fA6ZSG5h0xc-bQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2021",
+    "limit": 16,
+    "genres": ["Drama", "Horror", "Mystery"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BYTQ4ODI5ZjQtNTcwNi00NmY3LWEzYjQtN2E2NThkZDljMmMwXkEyXkFqcGdeQXVyMTIzNDk1MDYz._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "title": "The Batman",
+    "description": "The plot is unknown.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi3074735641/1434659607842-pgv4ql-1598144675262.mp4?Expires=1633004182&Signature=JofJX~fIMrhNE7i24fdXOZW71fBEeyUlxk2vEbz9yYA3aoEd46KiTnuhycoxZqkuyBsCwNXNNUiHvJt1CxcFlchwD-OgdXqAjEExzuAAoJToXSRbxZaDzDdUctt-YPFF9ZjA3Rb70YYo0BmWgCLZy2uFvi8cD1UPJuAkt3daNawxnpcHduO0svAKxgHHsc7JcDrgH5JHECKvsaKn0MikQJTbgd-3se6TH4hF4UY9N6DBJsnAPiq1lXKBIfGTfys-sV8ZjjWt8yb7WNETt1LNLsaj7BAXT5vWhrwXOV01Mq6fJi9tMIP~ISZofkzuubAWLN1aoFWMOx1Fh6WwXTa4DQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2022",
+    "limit": 16,
+    "genres": ["Action", "Crime", "Drama"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BNTMxOGI4OGMtMTgwMy00NmFjLWIyOTUtYjQ0OGQ4Mjk0YjNjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "title": "Spider-Man: No Way Home",
+    "description": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi3963797529/1434659607842-pgv4ql-1629772272608.mp4?Expires=1633004208&Signature=AxLJ3mBrnm7IxI~tw8qOImcNiBFm1AMdvWfVrxOZQwRurcOJ~p8kn-2IbQMQAk2Ib98z~fgGv~KQLMU84L5LpsGMP82D8yExUes-TBw0xUo8Xz0pxel86vS6sg93NWBbi7fszWcgG7lkFo6Pm8i9GRT5xbJF~lm1jnspacRiC6p8VENpr2-JuPTKu9y-RAF9wHMdxpc5NBzcWN8m8UkUdocBPlTHOWXRHjs5Q8MT2Q-vbmqcnxglffTaEXxg~V5Aolsir2uhibxboPqbN4YYktQGNvYtAU5VgtHbgO8hP7B7sAguJf6jKGNuDj0gnT5Lbc39DiNms8oaAFp3~ymWMw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2021",
+    "limit": 16,
+    "genres": ["Action", "Adventure", "Sci-Fi"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BMGU4NzhkZDAtZmIyNi00ZGE2LWE2ODMtMGNiNjc3MTQxOTU1XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "title": "Licorice Pizza",
+    "description": "Set in 1970s San Fernando Valley, the film follows a high school student, who is also a successful child actor.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi346735385/1434659607842-pgv4ql-1632757001221.mp4?Expires=1633004230&Signature=h4fTFg5xi3Ah2p8qwFDNG5sz05V-3isl60lN9fA8af6gm8HBTRU26~MaUoM00M4WGRctvnyGZQwj5-uzab1SNQzXq-Z6Fz1ZDleftWmOHCP3sA3mj4ZgDGuDsC0Kkz-vWx1RCqKlLshlS0fui8s5mSt4Vwvy2L7kbkuxgbAxBRbS85oRtTikXM66jRhFeVdAa7UWI6dMAdKn8PEkLp7p0vr6e5l1FLnfk8-xq1SYvUaI7LUulLB---bSrilkGEBZhv3tAbS5WCDrBp1VZSAVGQAoBGoY7-QGjVtmKuaHk2wiCLR~PO3QzMdidfL4C98IMGj3WggTv8fa8fk53G0CLw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2021",
+    "limit": 16,
+    "genres": ["Comedy", "Drama"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BN2NlNDA5NDYtYjNhOS00ZTQ5LWEzZDYtOTE4MjBhY2I4ZDY4XkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "title": "The Sandman",
+    "description": "Upon escaping after decades of imprisonment by a mortal wizard, Dream, the personification of dreams, sets about to reclaim his lost equipment.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi1219019545/1434659607842-pgv4ql-1632590677599.mp4?Expires=1633004253&Signature=RdH9Hq1zKZwTJrAsa9hKb1kZEz6ph8u6CZ0Myfaeobc0ZTyPS2zoEluMuvGIkpRQEIMwSP71i0-BIVo0SznpGRWDsOQA-bebrBkoBGc0CKJSBjLeKLLC2sPp-curB8vTLZqoNM5427N~Ojlbs1EYpSuy--XtZ~5FR8RrJ6z9aFQYp0SmaTifa9T0ZBQzGHYvxPAJNX2eQw3lqj-9bZWtacVmMDab3P73KftJ4Cz1Qrhq7sYPHxlolgv9WG~MejKvxEXha9M8gGQsAubtMo9Hjyq0FdowKavtFM8biqjSx-fOoO1cNzTzImmsK1vptv3NgRB0eB4klwq3a2cgqqIZFQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": true,
+    "year": "2021– ",
+    "limit": 16,
+    "genres": ["Action", "Adventure", "Drama"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BMDQ4Mjg5NTItN2EwOC00MDdjLTk1NzEtZWExMGNhODk5MDA2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UY281_CR1,0,190,281_.jpg",
+    "title": "The Wheel of Time",
+    "description": "Set in a high fantasy world where magic exists, but only some can access it, a woman named Moiraine crosses paths with five young men and women. This sparks a dangerous, world-spanning journey. Based on the book series by Robert Jordan.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi2655961113/1434659607842-pgv4ql-1630597273692.mp4?Expires=1633004275&Signature=pWw1kMSO422iq8GCjhvwkh7S9lhmWaWvar9MMLQkq~w3wi4K~P1L3MN-bvy1cZsT7SP~2LKlqk51GJqznGxFKvtWPRazltjeSpBtjCmKw4OnWth1kDu9-v6S0EL7zFG1WbvgMSgDaLbuETFQOZU1NPjiFyUEY2x9LSErc7oCnjO~C3rRGqssKscO16xG6tPRedsSZ0dQKxHnbFdy3H733jVBFEZ9taRHeOjGqXq6wPIx2o6wYfxs9zWossAUffqdsNz7vIxex7LfbZUGcgFCTaNmuxsM0wyclXak4ezUugRJsdLcO9s3zgsQoJ1MGGb1MBL8aETjBstxj31g0w-X6A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": true,
+    "year": "2021– ",
+    "limit": 16,
+    "genres": ["Action", "Adventure", "Drama"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BMjk4OTgxOWItYWUwMi00ZTJiLWFjMDAtNzcxODJhYTI5YjAwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "title": "House of Gucci",
+    "description": "Spanning three decades of love, betrayal, decadence, revenge, and ultimately murder, we see what a name means, what it's worth, and how far a family will go for control.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi1835057177/1434659607842-pgv4ql-1627613309272.mp4?Expires=1633004298&Signature=HG5y41X55tq~NpOegBQp0868FRozH98bKVw9yYBELz2~pKPZrfp0L4UfovwXpCMrddJtT9BTMbdx07qrwNgMKivkp-bHwCPgkLWlOIZQrT51Numn9kkJZ5bkBjPKr0DWTGj4Fi09iWgK1tCOe-uHJv88igTuooaQ6jUZg3r2YpmhD-cYgcxKRCXsT8iabKV9QjE6vPwG1VWG3~a1m7eXq3E6r~2fBqlnZlruWEu9KIaMbQKebe579~Fx0tNEd08I0gZPuU42GMjsI6u-Svc~1YbCQkcKfmlR29I0zYEYn7aXQuyL5rXqzXASVXcjEBsNRW4Xj6L12nz6sbcHGYwFyw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2021",
+    "limit": 16,
+    "genres": ["Crime", "Drama", "Thriller"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BZmYwZDA0ODEtYTc3Mi00ZTkxLWE1MzItYjc2NTNkZGY3ODc3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_QL75_UY281_CR27,0,190,281_.jpg",
+    "title": "Vikings: Valhalla",
+    "description": "Follow-up series to 'Vikings' set 100 years afterward and centering on the adventures of Leif Erikson, Freydis, Harald Hardrada and the Norman King William the Conqueror.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi1151910681/1434659607842-pgv4ql-1632593120994.mp4?Expires=1633004322&Signature=aJGapzM3pilWXjgvPWFS1XQHqK-BRCnMgw9cQzrqNbgxPY-zKYg8YjqxnynF~lloxAj~yYFn1QZEZ5vMbavWNDlhv9ysdc9WxUFlsPFEgUPWuGgNwqXp44kNkRIER6u801veyeZX6x6KXtY0bSVOLDlDnA21h5uO-9t725WVUG5tZT80HWr9g85YWXfk6DfRhmSmuo6a8KlR8CC6gdjrIcYEGywmOnEaxGi9cUuWY1SxyNp43rxoOkq4ruusl7QPyKBF~xRl~U0ODBYUBtTDsVzyaguMD6b0N~3xqoUh~GHFBAzUrvN~OVuCA4NP9NhRIBXMi8vaWsBo4hEuUys73A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": true,
+    "year": "2022– ",
+    "limit": 16,
+    "genres": ["Action", "Adventure", "Drama"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BNzQ5NzJjMDgtNzhjMC00NTQ2LTgzOTUtZThiMWMwYmYwMGYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "title": "The Addams Family 2",
+    "description": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters. Sequel to the 2019 animated film, 'The Addams Family'.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi262521625/1434659607842-pgv4ql-1632344040012.mp4?Expires=1633004340&Signature=b7D64axeOeIjVzdblvbWmEVMk72-57WqDKwRCblAQ7fhK2hJDYQu4kI6LvZzaZXxcGcZTgcQpng2zcEeJIig6PZ9wPpWCpO4jmTT~Ai4H6kcLoIp9b6Uva~o8LbqnYsFCw3Ed43~rDkQYoGAZXSg-89u6FQWBg-k00T-QHS1uquHXDnLaYo-2KN8yN4jdxOcPajZqshJ6kr9iQ9Aa5yKLcUCHflSQD5wEgxgsGQ8sjPJ9q0lK7MLC3fcOVsUS45dIHSfC40Ev7JMqmNnp~scksp85u-uvEGcTjo3h6Zx10-ofakW3axMOM8vKZPkjy5arTisF4MC8ZF07EtA5~-soQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": false,
+    "year": "2021",
+    "limit": 16,
+    "genres": ["Animation", "Adventure", "Comedy"]
+  },
+  {
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BM2FiZmEzOGItODI3Ni00MDk2LWJhZWQtNGM2ODhlMWMzODZhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "title": "Cowboy Bebop",
+    "description": "A ragtag crew of bounty hunters chases down the galaxy's most dangerous criminals. They'll save the world - for the right price.",
+    "trailerURL": "https://imdb-video.media-imdb.com/vi2091434777/1434659607842-pgv4ql-1632595780964.mp4?Expires=1633004363&Signature=JIArTI03IU~G8xFbCAnMhhf9SPyQ9DBKlVVb86peHD3dwxPMQe35rlv9RjvzDFCetlmEKptz1wNRuPwNKF4NAMo~IYOmOf7xgaKNgjBdwjFsLD6F7DoILECwf7vcGLmGq3NQS349F1IhrcOQE-pak-84xDMNb9gtkxxw7o2tu5nyir5xtxllhEKHwq0k2~QZ5DHFss56EDMieulAmZvQ5AEGDhkSxDsvNbC6t7xmCERLXglJUlNO7myeZgxKoXFNt5bWCRFEoY4vp4ESVVBW8ZwxxIESXAHmObw9bV1s4TAoEoL7R-RhqUhr0KPf2RD3MVCGOrvAa~DgDFClUdtTdg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "isSeries": true,
+    "year": "2021– ",
+    "limit": 16,
+    "genres": ["Action", "Adventure", "Crime"]
+  }
+]
