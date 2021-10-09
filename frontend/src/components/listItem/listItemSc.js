@@ -50,7 +50,7 @@ export const ItemInfoTop = styled.div`
 `;
 export const ListItemContainer = styled.div`
 width: 225px;
-  height: 120px;
+  height: 125px;
   background-color: ${MainColor};
   margin-right: 5px;
   overflow: hidden;
@@ -77,7 +77,7 @@ width: 225px;
 
     &:hover {
     width: 325px;
-    height: 300px;
+    height: 320px;
     position: absolute;
     top: -150px;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);

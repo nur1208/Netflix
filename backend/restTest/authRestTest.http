@@ -9,19 +9,20 @@ POST {{Host}}:{{port}}/{{route}}/register
 Content-Type: application/json
 
 {
-    "username":"jun",
-    "email":"jun@jun.com",
-    "password":"12341234"
+    "username":"ben",
+    "email":"ben@ben.com",
+    "password":"12341234",
+    "isAdmin": true
 }
 
-    # "email":"nena@nena.com",
+    # "email":"jun@jun.com",
 
 ###
 POST {{Host}}:{{port}}/{{route}}/login
 Content-Type: application/json
 
 {
-    "email":"jun@jun.com",
+    "email":"ben@ben.com",
     "password":"12341234"
 }
 

@@ -12,10 +12,7 @@ const movieRouter = Router();
 
 movieRouter.get("/random");
 
-movieRouter
-  .route("/")
-  .post(protect, createMovie)
-  .get(protect, getAllMovie);
+movieRouter.route("/").post(protect, createMovie).get(getAllMovie);
 
 movieRouter
   .route("/:id")

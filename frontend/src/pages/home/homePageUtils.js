@@ -19,3 +19,15 @@ export const getRandomLists = async (type, genre, setLists) => {
     console.log(err);
   }
 };
+
+export const getMovies = async () => {
+  try {
+    const { data } = await axios(
+      "http://localhost:5000/api/v1/movies"
+    );
+
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
+};

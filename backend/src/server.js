@@ -5,6 +5,7 @@ import userRouter from "./routes/userRoutes.js";
 import morgan from "morgan";
 import movieRouter from "./routes/movieRoutes.js";
 import listRouter from "./routes/listRoutes.js";
+import cors from "cors";
 
 dotenv.config();
 const app = express();
@@ -23,6 +24,7 @@ const main = async () => {
     app.use(morgan("dev"));
     // console.log(process.env.mongodb_url);
 
+    app.use(cors({ origin: "http://localhost:3000" }));
     app.get("/", (req, res) => {
       res.send("Hello World!");
     });

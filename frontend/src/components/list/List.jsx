@@ -6,8 +6,9 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { ListItem } from "../listItem/ListItem";
 import { ListContainer, Wrapper } from "./listSC";
+import { renderListItem } from "./listUtil";
 
-export const List = () => {
+export const List = ({ movies }) => {
   const [isMoved, setIsMoved] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
 
@@ -30,6 +31,7 @@ export const List = () => {
     }
   };
 
+  const copied = true;
   return (
     <ListContainer id="ListContainer">
       <span>Continue to watch</span>
@@ -40,7 +42,10 @@ export const List = () => {
           style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          <Link to="/watch">
+          {renderListItem(movies)}
+          {renderListItem(movies, copied)}
+
+          {/* <Link to="/watch">
             <ListItem index={0} />
           </Link>
           <ListItem index={1} />
@@ -51,7 +56,7 @@ export const List = () => {
           <ListItem index={6} />
           <ListItem index={7} />
           <ListItem index={8} />
-          <ListItem index={9} />
+          <ListItem index={9} /> */}
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"
