@@ -36,7 +36,7 @@ export const ListItem = ({
       <img src={imgURL} alt="" />
       {isHovered && (
         <>
-          <video src={trailerURL} autoPlay={true} loop />
+          <video src={`./${trailerURL}`} autoPlay={true} loop />
           <ItemInfo id="ItemInfo">
             <Icons id="Icons">
               <PlayArrow className="icon" />

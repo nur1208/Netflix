@@ -43,7 +43,11 @@ function App() {
           </Route>
 
           <Route path="/" exact component={HomePage} />
-          <Route path="/watch" exact component={Watch} />
+          <Route
+            path="/watch/:trailerUrl"
+            exact
+            component={Watch}
+          />
           <Route path="/register" exact component={Register} />
           <Route path="/login" exact component={Login} />
           <Route path="/admin/" exact component={AdminHomePage} />

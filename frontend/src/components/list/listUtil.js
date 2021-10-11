@@ -6,7 +6,7 @@ const listItem = Array(10).fill(0);
 export const renderListItem = (movies, copied) => {
   return movies.map((item, index) => (
     <Link
-      to={`/watch/:`}
+      to={`/watch/${item.trailerURL}`}
       key={copied ? index + movies.length : index}
     >
       <ListItem

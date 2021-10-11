@@ -1,11 +1,12 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import userRouter from "./routes/userRoutes.js";
 import morgan from "morgan";
+import cors from "cors";
+import path from "path";
+import userRouter from "./routes/userRoutes.js";
 import movieRouter from "./routes/movieRoutes.js";
 import listRouter from "./routes/listRoutes.js";
-import cors from "cors";
 
 dotenv.config();
 const app = express();
@@ -18,6 +19,8 @@ const main = async () => {
     // eslint-disable-next-line no-console
     console.log("connect to the database");
 
+    const dirname = path.resolve();
+
     // middleware for adding body data to the request
     app.use(express.json());
 
@@ -28,6 +31,8 @@ const main = async () => {
     app.get("/", (req, res) => {
       res.send("Hello World!");
     });
+
+    app.use(express.static(path.join(dirname, "public")));
 
     app.use("/api/v1/users", userRouter);
     app.use("/api/v1/movies", movieRouter);
